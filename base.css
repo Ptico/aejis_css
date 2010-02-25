@@ -1,0 +1,35 @@
+body {
+	height:auto!important;
+	height:100%;
+	min-height:100%;
+}
+
+/* Links */
+a { color: rgb(0,102,204); }
+a:visited { }
+a:hover {  }
+a:active {  }
+
+/* Tools */
+.cc { clear: both; }
+.no-bg { background: none!important; }
+.hidden { display: none; }
+
+.a-left { text-align: left; }
+.a-center { text-align: center; }
+.a-right { text-align: right; }
+
+.f-left { float: left; }
+.f-right { float: right; }
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+

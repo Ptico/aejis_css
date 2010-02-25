@@ -1,0 +1,114 @@
+/*
+	TextRules
+*/
+body {
+	font: 62.5%/1.6 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; /* 10 px */
+}
+
+q {
+	quotes: "\00AB" "\00BB" "\201e" "\201c";
+}
+
+/*
+ * Hang punctuation
+ */
+
+.hang-bracket {
+	margin-left: -.35em;
+}
+
+.hang-bracket:before {
+	content: ' ';
+	margin-right: .35em;
+}
+
+.hang-qoute {
+	margin-left: -.6em;
+}
+
+.hang-qoute:before {
+	content: ' ';
+	margin-right: .6em;
+}
+
+/* Headings */
+h1 {
+	font-size: 2.4em; /* 24px */
+	line-height: 1.3333em; /* 32px */
+	margin-bottom: 0.6667em;
+}
+
+h2 {
+	font-size: 2.2em; /* 22px */
+	line-height: 1.4545em; /* 32px */
+	margin-bottom: 0.7273em;
+}
+
+h3 {
+	font-size: 2em; /* 20px */
+	line-height: 1.6em; /* 32px */
+	margin-bottom: 0.8em;
+}
+
+h4 {
+	font-size: 1.8em; /* 18px */
+	line-height: 1.7778em; /* 32px */
+	margin-bottom: 0.8889em;
+}
+
+h5 {
+	font-size: 1.6em; /* 16px */
+	line-height: 1em; /* 16px */
+	margin-bottom: 1em;
+}
+
+h6 {
+	font-size: 1.4em; /* 14px */
+	line-height: 1.1429em; /* 16px */
+	margin-bottom: 1.1429em;
+}
+
+/* Paragraphs */
+
+.f12 {
+	font-size: 1.2em;
+	line-height: 1.33333em;
+}
+
+.f14 {
+	font-size: 1.4em;
+	line-height: 1.1428em;
+}
+
+.f16 {
+	font-size: 1.6em; /* 16px */
+	line-height: 1em; /* 16px */
+}
+
+.f18 {
+	font-size: 1.8em;
+	line-height: 1.7778em;
+	margin-top: -0.5em;
+}
+
+.f20 {
+	font-size: 2em; /* 20px */
+	line-height: 1.6em; /* 32px */
+	margin-top: -0.5em;
+}
+
+.f22 {
+	font-size: 2.2em; /* 22px */
+	line-height: 1.4545em; /* 32px */
+	margin-top: -0.5em;
+}
+
+.f24 {
+	font-size: 2.4em; /* 24px */
+	line-height: 1.3333em; /* 32px */
+	margin-top: -0.5em;
+}
+
+sup, sub { vertical-align: baseline; position: relative; font-size:small;}
+sup { top: -0.4em; }
+sub { bottom: -0.3em; }

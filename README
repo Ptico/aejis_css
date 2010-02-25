@@ -1,0 +1,9 @@
+Aejis css
+Simple css framework. Without grids, effects etc.
+
+Files:
+reset.css		— Reset browser styles
+typo.css		— Typographic tools and sets
+base.css		— Usable tools and default sets
+
+ie.css			— Browser for idiots support.
