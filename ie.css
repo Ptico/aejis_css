@@ -1,8 +1,9 @@
-/* Clearfix */
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
-/*because legend doesn't inherit in IE */
-legend {
-	color:#000;
-}
+/* Clearfix */
+* html .clearfix             {zoom: 1;} /* IE6 */
+*:first-child+html .clearfix {zoom: 1;} /* IE7 */
+
+sup, sub { font-size: 100%; } /* IE superscript & subscript bug */
+legend {color:#000;} /*because legend doesn't inherit in IE */
+* html textarea, * html input {padding: 0;} /* IE < 7 form fix */
+input[type='submit'], input[type='button'] { padding: 0; } /* IE 7 button fix */
