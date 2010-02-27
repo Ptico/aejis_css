@@ -1,14 +1,16 @@
-/*
-	TextRules
+@charset "UTF-8";
+
+/* ------------
+	Aejis css  http://aejis.eu/tools/css/
+	Typographic rules
+	-----------
 */
+
 body {
 	font: 62.5%/1.6 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; /* 10 px */
 }
 
-q {
-	quotes: "\00AB" "\00BB" "\201e" "\201c";
-}
-
+q {quotes: "\00AB" "\00BB" "\201e" "\201c";}
 strong, th, thead td, h1, h2, h3, h4, h5, h6 {font-weight: bold;}
 em, cite {font-style: italic;}
 code, kbd, samp, var {font-family: monaco, "Lucida Console", courier, monospace;}
@@ -24,99 +26,66 @@ abbr, acronym {
 /*
  * Hang punctuation
  */
+ 
+/* Bracket */
+.hang-b {margin-left: -.35em;} /* Right bracket*/
+.hang-b-s {margin-right: .35em;} /* Space before bracket*/
+.hang-bl {margin-right: -.35em;} /* Left bracket*/
+.hang-bl-s {margin-left: .35em;} /* Space after bracket*/
 
-.hang-bracket {
-	margin-left: -.35em;
-}
+/* Quote (&laquo; &raquo;) */
+.hang-q {margin-left: -.6em;} /* Right qoute */
+.hang-q-s {margin-right: .6em;} /* Space before quote */
+.hang-ql {margin-right: -.6em;} /* Left quote */
+.hang-ql-s {margin-left: .6em;} /* Space after quote */
 
-.hang-bracket:before {
-	content: ' ';
-	margin-right: .35em;
-}
 
-.hang-qoute {
-	margin-left: -.6em;
-}
+/*
+ * Vertical rhytm
+ */
 
-.hang-qoute:before {
-	content: ' ';
-	margin-right: .6em;
-}
+/* Paragraphs */
+.f12 {font-size: 1.2em;line-height: 1.33333em;}
+.f14 {font-size: 1.4em;line-height: 1.1428em;}
+.f16 {font-size: 1.6em;line-height: 1em;}
+.f18 {font-size: 1.8em;line-height: 1.7778em;margin-top: -0.5em;}
+.f20 {font-size: 2em;line-height: 1.6em;margin-top: -0.5em;}
+.f22 {font-size: 2.2em;line-height: 1.4545em;margin-top: -0.5em;}
+.f24 {font-size: 2.4em;line-height: 1.3333em;margin-top: -0.5em;}
 
 /* Headings */
 h1 {
-	font-size: 2.4em; /* 24px */
-	line-height: 1.3333em; /* 32px */
+	font-size: 2.4em; 
+	line-height: 1.3333em;
 	margin-bottom: 0.6667em;
 }
 
 h2 {
-	font-size: 2.2em; /* 22px */
-	line-height: 1.4545em; /* 32px */
+	font-size: 2.2em;
+	line-height: 1.4545em;
 	margin-bottom: 0.7273em;
 }
 
 h3 {
-	font-size: 2em; /* 20px */
-	line-height: 1.6em; /* 32px */
+	font-size: 2em;
+	line-height: 1.6em;
 	margin-bottom: 0.8em;
 }
 
 h4 {
-	font-size: 1.8em; /* 18px */
-	line-height: 1.7778em; /* 32px */
+	font-size: 1.8em;
+	line-height: 1.7778em;
 	margin-bottom: 0.8889em;
 }
 
 h5 {
-	font-size: 1.6em; /* 16px */
-	line-height: 1em; /* 16px */
+	font-size: 1.6em;
+	line-height: 1em;
 	margin-bottom: 1em;
 }
 
 h6 {
-	font-size: 1.4em; /* 14px */
-	line-height: 1.1429em; /* 16px */
-	margin-bottom: 1.1429em;
-}
-
-/* Paragraphs */
-
-.f12 {
-	font-size: 1.2em;
-	line-height: 1.33333em;
-}
-
-.f14 {
 	font-size: 1.4em;
-	line-height: 1.1428em;
-}
-
-.f16 {
-	font-size: 1.6em; /* 16px */
-	line-height: 1em; /* 16px */
-}
-
-.f18 {
-	font-size: 1.8em;
-	line-height: 1.7778em;
-	margin-top: -0.5em;
-}
-
-.f20 {
-	font-size: 2em; /* 20px */
-	line-height: 1.6em; /* 32px */
-	margin-top: -0.5em;
-}
-
-.f22 {
-	font-size: 2.2em; /* 22px */
-	line-height: 1.4545em; /* 32px */
-	margin-top: -0.5em;
-}
-
-.f24 {
-	font-size: 2.4em; /* 24px */
-	line-height: 1.3333em; /* 32px */
-	margin-top: -0.5em;
+	line-height: 1.1429em;
+	margin-bottom: 1.1429em;
 }

@@ -1,3 +1,11 @@
+@charset "UTF-8";
+
+/* ------------
+	Aejis css  http://aejis.eu/tools/css/
+	IE-specific
+	-----------
+*/
+
 
 /* Clearfix */
 * html .clearfix             {zoom: 1;} /* IE6 */

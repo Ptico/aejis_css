@@ -1,3 +1,11 @@
+@charset "UTF-8";
+
+/* ------------
+	Aejis css  http://aejis.eu/tools/css/
+	Global reset
+	-----------
+*/
+
 html {
 	color:#000;
 	background:#FFF;
@@ -26,13 +34,8 @@ table {
 	border-spacing:0;
 }
 
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
