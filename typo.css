@@ -9,6 +9,18 @@ q {
 	quotes: "\00AB" "\00BB" "\201e" "\201c";
 }
 
+strong, th, thead td, h1, h2, h3, h4, h5, h6 {font-weight: bold;}
+em, cite {font-style: italic;}
+code, kbd, samp, var {font-family: monaco, "Lucida Console", courier, monospace;}
+sup, sub {vertical-align: baseline; position: relative; font-size:small;}
+sup {top: -0.4em;}
+sub {bottom: -0.3em;}
+del {text-decoration: line-through;}
+abbr, acronym {
+	cursor: help;
+	border-bottom: 1px dotted #000;
+}
+
 /*
  * Hang punctuation
  */
@@ -108,7 +120,3 @@ h6 {
 	line-height: 1.3333em; /* 32px */
 	margin-top: -0.5em;
 }
-
-sup, sub { vertical-align: baseline; position: relative; font-size:small;}
-sup { top: -0.4em; }
-sub { bottom: -0.3em; }
