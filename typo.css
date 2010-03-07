@@ -28,16 +28,16 @@ abbr, acronym {
  */
  
 /* Bracket */
-.hang-b {margin-left: -.35em;} /* Right bracket*/
-.hang-b-s {margin-right: .35em;} /* Space before bracket*/
-.hang-bl {margin-right: -.35em;} /* Left bracket*/
-.hang-bl-s {margin-left: .35em;} /* Space after bracket*/
+.hang-b {margin-left: -0.55ex;} /* Left bracket*/
+.hang-b-s {margin-right: 0.55ex;} /* Space before bracket*/
+.hang-bl {margin-right: -0.55ex;} /* Right bracket*/
+.hang-bl-s {margin-left: 0.55ex;} /* Space after bracket*/
 
 /* Quote (&laquo; &raquo;) */
-.hang-q {margin-left: -.6em;} /* Right qoute */
-.hang-q-s {margin-right: .6em;} /* Space before quote */
-.hang-ql {margin-right: -.6em;} /* Left quote */
-.hang-ql-s {margin-left: .6em;} /* Space after quote */
+.hang-q {margin-left: -0.95ex;} /* Left qoute */
+.hang-q-s {margin-right: 0.95ex;} /* Space before quote */
+.hang-ql {margin-right: -0.95ex;} /* Right quote */
+.hang-ql-s {margin-left: 0.95ex;} /* Space after quote */
 
 
 /*
